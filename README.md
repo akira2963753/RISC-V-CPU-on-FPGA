@@ -1,13 +1,13 @@
 # RISC-V-CPU
-在2025的春天計算機組織課程中，我學習到了如何實現一個簡單的[5-Stage-Pipeline-CPU Based on MIPS](https://github.com/akira2963753/MIPS-5-stage-pipelined-CPU), 可惜由於課程時間規劃，我們沒辦法去實作包含Cache、Branch 預測等更加進階的架構。因此，為了更進一步了解目前主流CPU架構設計，我選擇使用RISC-V來做為練習架構。  
+In the Spring of 2025, during my Computer Organization course, I learned how to implement a simple [5-Stage Pipeline CPU Based on MIPS](https://github.com/akira2963753/MIPS-5-stage-pipelined-CPU). Unfortunately, due to the course schedule, we were unable to implement more advanced features such as caches and branch prediction. Therefore, to further explore mainstream CPU architecture design, I chose RISC-V as a practice platform. Currently, I have completed the basic five-stage pipeline and can support all **RV32I Base Instructions**, although cache and branch prediction have not yet been implemented.
   
-### 未來完整架構 :  
+## CPU :  
 <img width="617.4" height="477.4" alt="RISCV_ALL drawio (1)" src="https://github.com/user-attachments/assets/9c0091ac-c1ba-4f9c-a12a-d8cb024fa3e4" />  
 
-### RV32I :  
+## RV32I :  
 <img width="570" height="662" alt="image" src="https://github.com/user-attachments/assets/17bd8742-7456-4b52-8ced-78caf17fa577" />  
 
-### 目前的 5-Stage-Pipeline-CPU Based on RV32I of RISC-V  :  
+## Current 5-Stage-Pipeline-CPU Based on RV32I of RISC-V  :    
 <img width="2147" height="964" alt="RISC-V 的副本 drawio (2)" src="https://github.com/user-attachments/assets/8f9f5783-ba46-4b96-a9de-866a14257a65" />  
 
 
