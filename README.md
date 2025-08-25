@@ -1,5 +1,6 @@
 # RISC-V-CPU
-In the Spring of 2025, during my **Computer Organization course**, I learned how to implement a simple [**5-Stage Pipeline CPU Based on MIPS**](https://github.com/akira2963753/MIPS-5-stage-pipelined-CPU). Unfortunately, due to the course schedule, we were unable to implement more advanced features such as **caches** and **branch prediction.** Therefore, to further explore mainstream CPU architecture design, I chose RISC-V as a practice platform. Currently, I have completed the basic five-stage pipeline and can support all **RV32I Base Instructions**, although cache and branch prediction have not yet been implemented.
+In the Spring of 2025, during my **Computer Organization course**,   
+I learned how to implement a simple [**5-Stage Pipeline CPU Based on MIPS**](https://github.com/akira2963753/MIPS-5-stage-pipelined-CPU). Unfortunately, due to the course schedule, we were unable to implement more advanced features such as **caches** and **branch prediction.** Therefore, to further explore mainstream CPU architecture design, I chose RISC-V as a practice platform. Currently, I have completed the basic five-stage pipeline and can support all **RV32I Base Instructions**, although cache and branch prediction have not yet been implemented.
   
 ## CPU :  
 <img width="617.4" height="477.4" alt="RISCV_ALL drawio (1)" src="https://github.com/user-attachments/assets/9c0091ac-c1ba-4f9c-a12a-d8cb024fa3e4" />  
