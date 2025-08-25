@@ -7,10 +7,11 @@ Unfortunately, due to the course schedule, we were unable to implement more adva
 ## CPU :  
 <img width="617.4" height="477.4" alt="RISCV_ALL drawio (1)" src="https://github.com/user-attachments/assets/9c0091ac-c1ba-4f9c-a12a-d8cb024fa3e4" />  
 
+## Current 5-Stage-Pipeline-CPU Based on RV32I of RISC-V  :    
+<img width="2147" height="964" alt="RISC-V 的副本 drawio (2)" src="https://github.com/user-attachments/assets/8f9f5783-ba46-4b96-a9de-866a14257a65" />  
+
 ## RV32I :  
 <img width="570" height="662" alt="image" src="https://github.com/user-attachments/assets/17bd8742-7456-4b52-8ced-78caf17fa577" />  
 
-## Current 5-Stage-Pipeline-CPU Based on RV32I of RISC-V  :    
-<img width="2147" height="964" alt="RISC-V 的副本 drawio (2)" src="https://github.com/user-attachments/assets/8f9f5783-ba46-4b96-a9de-866a14257a65" />  
 
 
