@@ -14,4 +14,6 @@ Unfortunately, due to the course schedule, we were unable to implement more adva
 <img width="570" height="662" alt="image" src="https://github.com/user-attachments/assets/17bd8742-7456-4b52-8ced-78caf17fa577" />  
 
 
-
+## Reference :  
+[**CS 61C at UC Berkeley - Summer 2025**](https://cs61c.org/su25/)  
+[**RISC-V Soc**](https://hackmd.io/@w4K9apQGS8-NFtsnFXutfg/B1Re5uGa5#CPU%E6%9E%B6%E6%A7%8B)  
