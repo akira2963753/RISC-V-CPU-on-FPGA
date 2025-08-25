@@ -16,4 +16,4 @@ Unfortunately, due to the course schedule, we were unable to implement more adva
 
 ## Reference :  
 [**CS 61C at UC Berkeley with Justin Yokota - Summer 2025**](https://cs61c.org/su25/)    
-[**RISC-V Soc**](https://hackmd.io/@w4K9apQGS8-NFtsnFXutfg/B1Re5uGa5#CPU%E6%9E%B6%E6%A7%8B)   
+[**從零開始的RISC-V SoC架構設計**](https://hackmd.io/@w4K9apQGS8-NFtsnFXutfg/B1Re5uGa5#CPU%E6%9E%B6%E6%A7%8B)   
