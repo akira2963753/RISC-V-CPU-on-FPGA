@@ -5,7 +5,29 @@ Unfortunately, due to the course schedule, we were unable to implement more adva
 <img width="617.4" height="477.4" alt="RISCV_ALL drawio (3)" src="https://github.com/user-attachments/assets/9d67d304-47b1-4591-be26-7a1e44f2c6ed" />   
 
 ## Repository Structure :
-...  
+```
+RISCV-CPU /
+├── src/                           # RTL Resource
+│   ├── RISCV_CPU.v 
+│   ├── IF_ID.v          
+│   └── ID_EX.v              
+│   └── EX_MEM.v              
+│   └── MEM_WB.v
+│   ├── RF.v          
+│   └── ImmGen.v              
+│   └── ALU.v
+│   └── BPU.v            
+│   └── ALU_Control.v    
+│   ├── Control.v          
+│   └── Forwarding_Unit.v              
+│   └── Hazard_Unit.v              
+│   └── DPU.v
+│   └── PC.v
+│   └── PC_Adder.v
+│   └── BHT.v
+└── └── BTB.v
+        
+```  
    
 ## 5-Stage-Pipeline-CPU Based on RV32I/M of RISC-V  :    
 <img width="2147" height="964" alt="RISC-V 的副本 drawio (2)" src="https://github.com/user-attachments/assets/8f9f5783-ba46-4b96-a9de-866a14257a65" />  
