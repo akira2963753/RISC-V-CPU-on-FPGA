@@ -8,25 +8,34 @@ Unfortunately, due to the course schedule, we were unable to implement more adva
 ```
 RISCV-CPU /
 ├── src/                           # RTL Resource
-│   ├── RISCV_CPU.v 
-│   ├── IF_ID.v          
-│   └── ID_EX.v              
-│   └── EX_MEM.v              
-│   └── MEM_WB.v
-│   ├── RF.v          
-│   └── ImmGen.v              
-│   └── ALU.v
-│   └── BPU.v            
-│   └── ALU_Control.v    
-│   ├── Control.v          
-│   └── Forwarding_Unit.v              
-│   └── Hazard_Unit.v              
-│   └── DPU.v
-│   └── PC.v
-│   └── PC_Adder.v
-│   └── BHT.v
-└── └── BTB.v
-        
+│   ├── RISCV_CPU.v
+│   └── IF/
+│       ├── IF_ID.v
+│       ├── PC.v
+│       ├── PC_Adder.v
+│       ├── BTB.v
+│       ├── BHT.v
+│       └── I_Mem.v
+│   └── ID/
+│       ├── ID_EX.v
+│       ├── RF.v
+│       └── ImmGen.v
+│   └── EX/
+│       ├── EX_MEM.v
+│       ├── ALU.v
+│       ├── BPU.v
+│       ├── MUL.v
+│       └── DIV.v         
+│   └── MEM/
+│       ├── MEM_WB.v
+│       ├── D_Mem.v
+│       └── DPU.v
+│   └── CONTROL/
+│       ├── Control.v
+│       ├── ALU_Control.v
+│       ├── Forwarding_Unit.v
+│       └── Hazard_Unit.v   
+      
 ```  
    
 ## 5-Stage-Pipeline-CPU Based on RV32I/M of RISC-V  :    
