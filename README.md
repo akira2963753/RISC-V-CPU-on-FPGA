@@ -1,5 +1,6 @@
 # RISC-V-CPU
-In the Spring of 2025, during my **Computer Organization course**, I learned how to implement a MIPS-CPU [(**Github**)](https://github.com/akira2963753/MIPS-5-stage-pipelined-CPU). Unfortunately, due to the course schedule, we were unable to implement more advanced features such as **caches** and **branch prediction.** Therefore, to further explore mainstream CPU architecture design, I chose RISC-V as a practice platform.  
+In the Spring of 2025, during my **Computer Organization course**, I learned how to implement a MIPS-CPU [(**Github**)](https://github.com/akira2963753/MIPS-5-stage-pipelined-CPU)   
+Unfortunately, due to the course schedule, we were unable to implement more advanced features such as **caches** and **branch prediction.** Therefore, to further explore mainstream CPU architecture design, I chose RISC-V as a practice platform.  
   
 ## Framework :  
 <img width="617.4" height="477.4" alt="RISCV_ALL drawio (3)" src="https://github.com/user-attachments/assets/9d67d304-47b1-4591-be26-7a1e44f2c6ed" />   
