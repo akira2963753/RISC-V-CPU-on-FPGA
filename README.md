@@ -10,7 +10,7 @@ Unfortunately, due to the course schedule, we were unable to implement more adva
 
 ## RV32I :  
 <img width="570" height="662" alt="image" src="https://github.com/user-attachments/assets/17bd8742-7456-4b52-8ced-78caf17fa577" />  
-<img width="1190" height="306" alt="image" src="https://github.com/user-attachments/assets/d007e68a-c6b5-4ccf-9cf0-5f6d27182074" />
+<img width="570" height="100" alt="image" src="https://github.com/user-attachments/assets/d007e68a-c6b5-4ccf-9cf0-5f6d27182074" />
 
 
 
