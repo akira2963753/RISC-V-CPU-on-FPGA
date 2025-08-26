@@ -8,7 +8,7 @@ Unfortunately, due to the course schedule, we were unable to implement more adva
 ## 5-Stage-Pipeline-CPU Based on RV32I of RISC-V  :    
 <img width="2147" height="964" alt="RISC-V 的副本 drawio (2)" src="https://github.com/user-attachments/assets/8f9f5783-ba46-4b96-a9de-866a14257a65" />  
 
-## RV32I :  
+## RV32I and RV32M :  
 <img width="570" height="662" alt="image" src="https://github.com/user-attachments/assets/17bd8742-7456-4b52-8ced-78caf17fa577" />  
 <img width="570" height="165" alt="image" src="https://github.com/user-attachments/assets/99d2c459-619c-4812-ae67-4cd0b1db8f48" />
 
