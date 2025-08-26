@@ -7,7 +7,7 @@ Unfortunately, due to the course schedule, we were unable to implement more adva
 ## Repository Structure :
 ```
 RISCV-CPU /
-├── src/                           # RTL Resource
+├── src/     
 │   ├── RISCV_CPU.v
 │   └── IF/
 │       ├── IF_ID.v
