@@ -1,5 +1,5 @@
 # RISC-V-CPU
-<img width="617.4" height="477.4" alt="RISCV_ALL drawio (3)" src="https://github.com/user-attachments/assets/9d67d304-47b1-4591-be26-7a1e44f2c6ed" />   
+<img width="843" height="723" alt="RISCV_ALL drawio (4)" src="https://github.com/user-attachments/assets/8e6674c5-2f90-40cc-b91b-db9908b5b726" />  
   
 ## Repository Structure :
 ```
