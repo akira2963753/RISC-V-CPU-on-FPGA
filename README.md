@@ -36,11 +36,7 @@ RISCV-CPU /
 ```  
      
 ## 5-Stage-Pipeline-CPU Based on RV32I/M of RISC-V  :    
-<img width="2147" height="964" alt="RISC-V 的副本 drawio (2)" src="https://github.com/user-attachments/assets/8f9f5783-ba46-4b96-a9de-866a14257a65" />  
-
-## RV32I and RV32M :  
-<img width="570" height="662" alt="image" src="https://github.com/user-attachments/assets/17bd8742-7456-4b52-8ced-78caf17fa577" />  
-<img width="570" height="177" alt="image" src="https://github.com/user-attachments/assets/79486f22-eb21-4a10-b238-a6f51e0e17cb" />
+<img width="2147" height="964" alt="RISC-V 的副本 drawio (2)" src="https://github.com/user-attachments/assets/8f9f5783-ba46-4b96-a9de-866a14257a65" />   
 
 ## RTL Simulation :  
 ...  
