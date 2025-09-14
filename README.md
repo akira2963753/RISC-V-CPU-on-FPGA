@@ -1,6 +1,6 @@
 # RISC-V-CPU
-<img width="500" height="400" alt="RISCV_ALL drawio (5)" src="https://github.com/user-attachments/assets/3b634290-4d0c-4b64-bdc3-b66d062d040c" />  
-   
+該專案基於計算機組織課程，以及 UC Berkeley CS 61C Summer 2025，設計一個32-bit Pipelined RISC-V CPU 支援 RV32I 和 RV32M 指令集，並且包含Forwarding, Hazard Detection, Dynamic Branch Prediction和兩個L1 Cache。
+  
 ## Repository Structure :
 ```
 RISCV-CPU /
@@ -35,7 +35,7 @@ RISCV-CPU /
 │       ├── Forwarding_Unit.v
 │       └── Hazard_Unit.v   
       
-```  
-     
-## 5-Stage-Pipeline-CPU Based on RV32I/M of RISC-V  :    
-<img width="2147" height="964" alt="RISC-V 的副本 drawio (2)" src="https://github.com/user-attachments/assets/8f9f5783-ba46-4b96-a9de-866a14257a65" />   
+```
+
+## 32-bit RISC-V CPU 系統架構圖 :  
+<img width="500" height="400" alt="RISCV_ALL drawio (5)" src="https://github.com/user-attachments/assets/3b634290-4d0c-4b64-bdc3-b66d062d040c" />   
