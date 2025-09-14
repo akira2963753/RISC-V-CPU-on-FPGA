@@ -36,5 +36,8 @@ RISCV-CPU /
       
 ```
 
-## 32-bit RISC-V CPU 系統架構圖 :  
+## 32-bit RISC-V CPU Framework :   
 <img width="500" height="400" alt="RISCV_ALL drawio (5)" src="https://github.com/user-attachments/assets/3b634290-4d0c-4b64-bdc3-b66d062d040c" />   
+
+## RV 32I / RV32M :  
+<img width="828" height="715" alt="image" src="https://github.com/user-attachments/assets/a9422d66-a458-423a-a5ec-328198ec9eaf" />  
