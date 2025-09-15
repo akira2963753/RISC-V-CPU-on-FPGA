@@ -42,7 +42,7 @@ RISCV-CPU /
 ## RV 32I / RV32M :  
 <img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/a9422d66-a458-423a-a5ec-328198ec9eaf" />  
 
-## AXI Bus :  
+## AXI BUS (Cache-AXI-BRAM) :  
 <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/e464dd90-c861-4607-8c2b-0ae3b75be536" />  
 
 ### Read Handshake Protocol :  
