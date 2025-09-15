@@ -45,13 +45,16 @@ RISCV-CPU /
 ## AXI Bus :  
 
 ### Read Handshake Protocol :  
-Master (CPU) 發送 ARVALID 直到 Slave (BRAM) 的 ARREADY 拉起 -> 握手成功  
+Master (CPU) 發送 ARVALID 直到 Slave (BRAM) 的 ARREADY 拉起，代表握手成功。   
 <img width="500" height="40" alt="image" src="https://github.com/user-attachments/assets/af1607de-bbb2-4d10-9745-fa0982f03dc3" />  
   
-Master (CPU) 的 RREADY 拉起，代表可以接受資料，而 Slave (BRAM) 的 RVALID 拉起，代表握手成功，開始傳送資料，直到 RLAST 拉起為最後一筆   
+Master (CPU) 的 RREADY 拉起，代表可以接受資料，而 Slave (BRAM) 的 RVALID 拉起，代表握手成功，開始傳送資料，直到 RLAST 拉起為最後一筆。   
 <img width="500" height="40" alt="image" src="https://github.com/user-attachments/assets/84086cba-7fdf-4dcc-912c-b6dc47b0e827" />  
   
 Cache 成功從 AXI 讀出八筆資料出來  
 <img width="500" height="40" alt="image" src="https://github.com/user-attachments/assets/145e75bf-9079-4474-89c2-1098ba3e4b6c" />  
+
+但由於 Cache 的 CMP 與 READ 狀態分開，因此需要兩個Cycle才能把正確 Instruction 吐出去(待優化)    
+<img width="500" height="40" alt="image" src="https://github.com/user-attachments/assets/feb5fe68-6fd2-46ce-b575-b23287d8e5d0" />  
 
 
