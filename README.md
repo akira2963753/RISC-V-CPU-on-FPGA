@@ -43,7 +43,7 @@ RISCV-CPU /
 <img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/a9422d66-a458-423a-a5ec-328198ec9eaf" />  
 
 ## AXI Bus :  
-<img width="1094" height="440" alt="image" src="https://github.com/user-attachments/assets/e464dd90-c861-4607-8c2b-0ae3b75be536" />  
+<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/e464dd90-c861-4607-8c2b-0ae3b75be536" />  
 
 ### Read Handshake Protocol :  
 Master (CPU) 發送 ARVALID 直到 Slave (BRAM) 的 ARREADY 拉起，代表握手成功。   
