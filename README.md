@@ -52,6 +52,6 @@ Master (CPU) 的 RREADY 拉起，代表可以接受資料，而 Slave (BRAM) 的
 <img width="500" height="40" alt="image" src="https://github.com/user-attachments/assets/84086cba-7fdf-4dcc-912c-b6dc47b0e827" />  
   
 Cache 成功從 AXI 讀出八筆資料出來  
-<img width="1182" height="133" alt="image" src="https://github.com/user-attachments/assets/145e75bf-9079-4474-89c2-1098ba3e4b6c" />  
+<img width="500" height="40" alt="image" src="https://github.com/user-attachments/assets/145e75bf-9079-4474-89c2-1098ba3e4b6c" />  
 
 
