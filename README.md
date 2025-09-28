@@ -4,36 +4,10 @@
 ## Repository Structure :
 ```
 RISCV-CPU /
-├── src/     
-│   ├── RISCV_CPU.v
-│   └── IF/
-│       ├── IF_ID.v
-│       ├── PC.v
-│       ├── PC_Adder.v
-│       ├── BTB.v
-│       ├── BHT.v
-│       ├── I_Cache_AXI4.v
-│       └── I_Cache.v
-│   └── ID/
-│       ├── ID_EX.v
-│       ├── RF.v
-│       └── ImmGen.v
-│   └── EX/
-│       ├── EX_MEM.v
-│       ├── ALU.v
-│       ├── BPU.v
-│       ├── MUL.v
-│       └── DIV.v         
-│   └── MEM/
-│       ├── MEM_WB.v
-│       ├── D_Mem.v
-│       └── DPU.v
-│   └── CONTROL/
-│       ├── Control.v
-│       ├── ALU_Control.v
-│       ├── Forwarding_Unit.v
-│       └── Hazard_Unit.v   
-      
+├── Five-Stage-Pipelined-RISC-V-CPU  # No Cache, only RISC-V CPU CORE    
+│   ├── RTL
+│   └── Testbench
+│   └── DEF         
 ```
 
 ## 32-bit RISC-V CPU Framework :   
