@@ -6,7 +6,7 @@
 RISCV-CPU /
 ├── Five-Stage-Pipelined-RISC-V-CPU  # No Cache  
 │   ├── RTL
-│   └── Testbench
+│   └── TESTBENCH
 │   └── DEF         
 ```
 
