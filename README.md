@@ -11,6 +11,5 @@ RISCV-CPU /
 ```
 
 ## 32-bit RISC-V CPU Framework :   
-<img width="500" height="400" alt="RISCV_ALL drawio (3)" src="https://github.com/user-attachments/assets/3f7c01e0-0a03-4622-90f1-992623e3e7a1" />   
-
+<img width="600" height="500" alt="RISCV_ALL drawio (4)" src="https://github.com/user-attachments/assets/5aa5eeed-15eb-467f-a554-bf9208201c23" />
 
