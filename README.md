@@ -4,8 +4,7 @@
 This project is based on [Computer Organization Course](https://github.com/akira2963753/5-Stage-Pipelined-MIPS-CPU) and [UC Berkeley CS 61C Summer 2025](https://cs61c.org/fa25/)     
 #  
   
-Current Progress : Completed Five-Stage-Pipelined RISC-V CPU Design and L1 Cache design   
-Incomplete Progress : Integrating the Cache into the RISC-V CPU and performing data transmission with BRAM using the AXI Bus  
+Progress : Integrating the Cache into the RISC-V CPU and performing data transmission with BRAM using the AXI Bus  
   
 ## Repository Structure :
 ```
