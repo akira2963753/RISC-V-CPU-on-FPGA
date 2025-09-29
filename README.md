@@ -1,5 +1,8 @@
 # RISC-V-CPU
-該專案基於計算機組織課程，以及 UC Berkeley CS 61C Summer 2025，設計一個32-bit Pipelined RISC-V CPU 支援 RV32I 和 RV32M 指令集，並且包含Forwarding, Hazard, Flush Detection, Dynamic Branch Prediction和兩個L1 Cache。
+This project is based on a Computer Organization course and UC Berkeley CS 61C Summer 2025. It involves designing a 32-bit Pipelined RISC-V CPU that supports the RV32I and RV32M instruction sets, including Forwarding, Hazard Detection, Flush Detection, Dynamic Branch Prediction, and two L1 Caches, implemented on an FPGA.   
+
+Current Progress: Completed Five-Stage-Pipelined RISC-V CPU Design and L1 Cache design   
+Incomplete Progress: Integrating the Cache into the RISC-V CPU and performing data transmission with BRAM using the AXI Bus  
   
 ## Repository Structure :
 ```
