@@ -4,7 +4,7 @@
 ## Repository Structure :
 ```
 RISCV-CPU /
-├── Five-Stage-Pipelined-RISC-V-CPU  # No Cache, only RISC-V CPU CORE    
+├── Five-Stage-Pipelined-RISC-V-CPU  # No Cache  
 │   ├── RTL
 │   └── Testbench
 │   └── DEF         
