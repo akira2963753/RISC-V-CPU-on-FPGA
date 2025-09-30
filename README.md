@@ -32,7 +32,7 @@ parameter CSR_RDCYCLE = 12'hc00;  # Read Cycle Register
 ```
 
 ### Dynamic Branch Prediction :  
-I use Branch History Table (BHT) and Branch Tag Buffer (BTB) to achieve *Dynamic Branch Prediction*.  
+I use [Branch History Table](./Five-Stage-Pipelined-RISC-V-CPU/RTL/BHT.v)  and [Branch Tag Buffer](./Five-Stage-Pipelined-RISC-V-CPU/RTL/BTB.v) to achieve *Dynamic Branch Prediction*.  
 Branch History Table can predict whether branch using 2-bit dynamic branch predictor.  
   ``` Verilog
   reg [1:0] state [0:`BHT_SIZE-1];
