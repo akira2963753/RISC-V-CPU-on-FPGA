@@ -40,8 +40,7 @@ Branch History Table can predict whether branch using 2-bit dynamic branch predi
   10 -> Strong branch
 
   ```
-### Branch Tag Buffer :  
-Branch Tag Buffer can help me to record previous branch address (Branch_PC), like a cache.   
+Branch Tag Buffer can help me to record previous branch address (Branch_PC), like a cache.  
 
 ### Simulation :  
 ``` 
