@@ -21,7 +21,7 @@ RISCV-CPU /
 │   └── DEF         
 ```
   
-## Five-Stage Pipelined RISC-V CPU Data Path   
+## Five-Stage Pipelined RISC-V CPU     
 <img width="2259" height="1173" alt="RISC-V 的副本 drawio" src="https://github.com/user-attachments/assets/b1996413-9ad6-460f-af46-fb20bdd8cbe3" />  
 
 ## Control State Register (CSR)    
