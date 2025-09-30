@@ -101,5 +101,8 @@ Write Data use Mem_W_Strb to control the write data size.
 
 ```
 
+### Branch :  
+In the Branch section, I use the Result and the Zero Flag calculated from the [ALU](./Five-Stage-Pipelined-RISC-V-CPU/RTL/ALU.v) passed to the [Branch Processing Unit](./Five-Stage-Pipelined-RISC-V-CPU/RTL/BPU.v)  to determine whether the branch is taken.  
+
 
 
