@@ -16,7 +16,8 @@ RISCV-CPU /
 ```
 
 ## 32-bit RISC-V CPU Framework :   
-<img width="500" height="400" alt="RISCV_ALL drawio (4)" src="https://github.com/user-attachments/assets/5aa5eeed-15eb-467f-a554-bf9208201c23" />
+<img width="500" height="400" alt="RISCV_ALL drawio (4)" src="https://github.com/user-attachments/assets/5aa5eeed-15eb-467f-a554-bf9208201c23" />  
+<img width="2259" height="1173" alt="RISC-V 的副本 drawio" src="https://github.com/user-attachments/assets/b1996413-9ad6-460f-af46-fb20bdd8cbe3" />  
 
 ## Control State Register (CSR) :   
 ``` Verilog
