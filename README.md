@@ -105,7 +105,7 @@ Write Data use Mem_W_Strb to control the write data size.
 I use the Result and the Zero Flag calculated from the [ALU](./Five-Stage-Pipelined-RISC-V-CPU/RTL/ALU.v) passed to the [Branch Processing Unit](./Five-Stage-Pipelined-RISC-V-CPU/RTL/BPU.v)  to determine whether the branch is taken.  
 
 ## Immediate Generator :  
-[ImmGen](./Five-Stage-Pipelined-RISC-V-CPU/RTL/ImmGen.v) generates the immediate value based on the RISC-V Instruction Set encoding format.  
+[Immediate Generator](./Five-Stage-Pipelined-RISC-V-CPU/RTL/ImmGen.v) generates the immediate value based on the RISC-V Instruction Set encoding format.  
 ``` Verilog
   always @(*) begin
         case (Imm_Type)
