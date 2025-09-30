@@ -89,7 +89,7 @@ endmodule
 ### Data Memory Store :
 Write Data use Mem_W_Strb to control the write data size.  
 ``` Verilog
-    always @(posedge clk or negedge rst_n) begin
+    always @(posedge clk) begin
         if(Mem_w) begin
             if(Mem_W_Strb[0]) DataMem[Mem_Addr] <= Mem_W_Data[7:0];
             if(Mem_W_Strb[1]) DataMem[Mem_Addr+1] <= Mem_W_Data[15:8];
