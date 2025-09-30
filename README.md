@@ -21,9 +21,54 @@ RISCV-CPU /
 ## Control State Register (CSR) :   
 ``` Verilog
  // CSR Address Definition
-parameter CSR_MSTATUS = 12'h300; # Machine Status Register
-parameter CSR_MTVEC   = 12'h305; # Machine Trap Vector
-parameter CSR_MEPC    = 12'h341; # Machine Exception PC
-parameter CSR_MCAUSE  = 12'h342; # Machine Cause Register
-parameter CSR_RDCYCLE = 12'hc00; # Read Cycle Register
+parameter CSR_MSTATUS = 12'h300;  # Machine Status Register
+parameter CSR_MTVEC   = 12'h305;  # Machine Trap Vector
+parameter CSR_MEPC    = 12'h341;  # Machine Exception PC
+parameter CSR_MCAUSE  = 12'h342;  # Machine Cause Register
+parameter CSR_RDCYCLE = 12'hc00;  # Read Cycle Register
 ```
+
+### Dynamic Branch Prediction :  
+I use Branch History Table (BHT) and Branch Tag Buffer (BTB) to achieve *Dynamic Branch Prediction*.  
+Branch History Table can predict whether branch using 2-bit dynamic branch predictor.  
+``` Verilog
+reg [1:0] state [0:`BHT_SIZE-1];
+
+00 -> Strong non-branch
+01 -> Soft non-branch
+10 -> Soft branch
+10 -> Strong branch
+
+```
+### Branch Tag Buffer :  
+Branch Tag Buffer can help me to record previous branch address (Branch_PC), like a cache.   
+
+### Simulation :  
+Example : Loop condition  
+```
+// Branch Prediction Test - Simple Loop Pattern
+// This test demonstrates branch prediction learning
+
+// Initialize counter
+ADDI x1, x0, 10        // Loop counter = 10
+ADDI x2, x0, 0        // Sum accumulator = 0
+
+// Simple Loop (Predictable Pattern) - starts at address 8
+ADD x2, x2, x1        // sum += counter
+ADDI x1, x1, -1       // counter--
+BNE x1, x0, -8        // if counter != 0, branch back 8 bytes (to ADD instruction)
+
+ADDI x3, x0, 3
+ADDI x4, x0, 4
+LW x5, 0(x0)
+ADDI x6, x5, 5
+ADDI x7, x6, 6
+SW x7, 0(x0)
+ADDI x8, x7, 0
+```
+<img width="1862" height="228" alt="image" src="https://github.com/user-attachments/assets/6babf407-d854-4862-bec4-3bda19433ca0" />  
+
+
+
+
+
