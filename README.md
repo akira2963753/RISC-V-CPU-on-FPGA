@@ -28,9 +28,9 @@ parameter CSR_MCAUSE  = 12'h342;  # Machine Cause Register
 parameter CSR_RDCYCLE = 12'hc00;  # Read Cycle Register
 ```
 
-1. Dynamic Branch Prediction :  
-  I use Branch History Table (BHT) and Branch Tag Buffer (BTB) to achieve *Dynamic Branch Prediction*.  
-  Branch History Table can predict whether branch using 2-bit dynamic branch predictor.  
+### Dynamic Branch Prediction :  
+I use Branch History Table (BHT) and Branch Tag Buffer (BTB) to achieve *Dynamic Branch Prediction*.  
+Branch History Table can predict whether branch using 2-bit dynamic branch predictor.  
   ``` Verilog
   reg [1:0] state [0:`BHT_SIZE-1];
 
@@ -40,10 +40,10 @@ parameter CSR_RDCYCLE = 12'hc00;  # Read Cycle Register
   10 -> Strong branch
 
   ```
-2. Branch Tag Buffer :  
-  Branch Tag Buffer can help me to record previous branch address (Branch_PC), like a cache.   
+### Branch Tag Buffer :  
+Branch Tag Buffer can help me to record previous branch address (Branch_PC), like a cache.   
 
-3. Simulation (Example - loop condition) :  
+### Simulation :  
 ``` 
 // Branch Prediction Test - Simple Loop Pattern
 // This test demonstrates branch prediction learning
