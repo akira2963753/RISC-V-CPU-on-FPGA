@@ -65,7 +65,7 @@ BNE x1, x0, -8        // if counter != 0, branch back 8 bytes (to ADD instructio
 
 ## Load Data Size and Store Data Size :    
 ### Load Data Unit (LDU) :   
-This unit handle read data size (Word,Half-Word,Byte) and sign extension from Data Memory.  
+This unit handle read data size and sign extension from Data Memory.  
 ``` Verilog
 module LDU(
     input [2:0] MEM_Funct3,
