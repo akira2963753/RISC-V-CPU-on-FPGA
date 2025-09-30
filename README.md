@@ -5,7 +5,8 @@
        
 #  
   
-Progress : Integrating the Cache into the RISC-V CPU and performing data transmission with BRAM using the AXI Bus  
+Progress :  
+Integrating the Cache into the RISC-V CPU and performing data transmission with BRAM using the AXI Bus  
   
 ## Repository Structure 
 You can use [rv32i_transfer](./Five-Stage-Pipelined-RISC-V-CPU/testbench/rv32i_transfer.py) to transfer the instruction you wrote to machine code and write it into IM.dat.  
