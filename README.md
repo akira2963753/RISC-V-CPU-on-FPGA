@@ -7,7 +7,7 @@ This project is based on [Computer Organization Course](https://github.com/akira
 Progress : Integrating the Cache into the RISC-V CPU and performing data transmission with BRAM using the AXI Bus  
   
 ## Repository Structure :
-``` Verilog
+```
 RISCV-CPU /
 ├── Five-Stage-Pipelined-RISC-V-CPU  # No Cache  
 │   ├── RTL
@@ -19,7 +19,7 @@ RISCV-CPU /
 <img width="600" height="500" alt="RISCV_ALL drawio (4)" src="https://github.com/user-attachments/assets/5aa5eeed-15eb-467f-a554-bf9208201c23" />
 
 ## Control State Register (CSR) :   
-```
+``` Verilog
  // CSR Address Definition
 parameter CSR_MSTATUS = 12'h300; # Machine Status Register
 parameter CSR_MTVEC   = 12'h305; # Machine Trap Vector
