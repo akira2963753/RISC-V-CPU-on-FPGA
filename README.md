@@ -57,13 +57,7 @@ ADD x2, x2, x1        // sum += counter
 ADDI x1, x1, -1       // counter--
 BNE x1, x0, -8        // if counter != 0, branch back 8 bytes (to ADD instruction)
 
-ADDI x3, x0, 3
-ADDI x4, x0, 4
-LW x5, 0(x0)
-ADDI x6, x5, 5
-ADDI x7, x6, 6
-SW x7, 0(x0)
-ADDI x8, x7, 0
+...  
 ```
 <img width="1862" height="228" alt="image" src="https://github.com/user-attachments/assets/6babf407-d854-4862-bec4-3bda19433ca0" />  
 
