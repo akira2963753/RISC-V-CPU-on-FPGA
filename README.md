@@ -63,7 +63,8 @@ BNE x1, x0, -8        // if counter != 0, branch back 8 bytes (to ADD instructio
 ```
 <img width="1862" height="228" alt="image" src="https://github.com/user-attachments/assets/6babf407-d854-4862-bec4-3bda19433ca0" />  
 
-### Load Data Unit :  
+## Load Data Size and Store Data Size :    
+### Load Data Unit (LDU) :   
 This unit handle read data size (Word, Half Word, Byte) from Data Memory.  
 ``` Verilog
 module LDU(
@@ -83,6 +84,21 @@ module LDU(
         endcase
     end
 endmodule
+```
+
+### Data Memory Store :
+Write Data use Mem_W_Strb to control the write data size.  
+``` Verilog
+    always @(posedge clk or negedge rst_n) begin
+        if(Mem_w) begin
+            if(Mem_W_Strb[0]) DataMem[Mem_Addr] <= Mem_W_Data[7:0];
+            if(Mem_W_Strb[1]) DataMem[Mem_Addr+1] <= Mem_W_Data[15:8];
+            if(Mem_W_Strb[2]) DataMem[Mem_Addr+2] <= Mem_W_Data[23:16];
+            if(Mem_W_Strb[3]) DataMem[Mem_Addr+3] <= Mem_W_Data[31:24];
+        end
+        else; // No write operation
+    end
+
 ```
 
 
