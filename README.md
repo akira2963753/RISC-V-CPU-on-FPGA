@@ -7,7 +7,7 @@ This project is based on [Computer Organization Course](https://github.com/akira
 Progress : Integrating the Cache into the RISC-V CPU and performing data transmission with BRAM using the AXI Bus  
   
 ## Repository Structure :
-```
+``` Verilog
 RISCV-CPU /
 ├── Five-Stage-Pipelined-RISC-V-CPU  # No Cache  
 │   ├── RTL
