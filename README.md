@@ -20,7 +20,7 @@ RISCV-CPU /
 
 ## Control State Register (CSR) :   
 ``` Verilog
- // CSR Address Definition
+// CSR Address Definition
 parameter CSR_MSTATUS = 12'h300;  # Machine Status Register
 parameter CSR_MTVEC   = 12'h305;  # Machine Trap Vector
 parameter CSR_MEPC    = 12'h341;  # Machine Exception PC
