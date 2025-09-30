@@ -45,7 +45,7 @@ Branch Tag Buffer can help me to record previous branch address (Branch_PC), lik
 
 ### Simulation :  
 Example : Loop condition  
-``` assembly 
+``` riscv 
 // Branch Prediction Test - Simple Loop Pattern
 // This test demonstrates branch prediction learning
 
