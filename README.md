@@ -43,9 +43,8 @@ reg [1:0] state [0:`BHT_SIZE-1];
 ### Branch Tag Buffer :  
 Branch Tag Buffer can help me to record previous branch address (Branch_PC), like a cache.   
 
-### Simulation :  
-Example : Loop condition  
-``` x86 
+### Simulation (Example - loop condition) :  
+``` 
 // Branch Prediction Test - Simple Loop Pattern
 // This test demonstrates branch prediction learning
 
