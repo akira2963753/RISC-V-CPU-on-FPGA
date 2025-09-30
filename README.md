@@ -7,7 +7,7 @@
   
 Progress : Integrating the Cache into the RISC-V CPU and performing data transmission with BRAM using the AXI Bus  
   
-## Repository Structure :
+## Repository Structure 
 You can use [rv32i_transfer](./Five-Stage-Pipelined-RISC-V-CPU/testbench/rv32i_transfer.py) to transfer the instruction you wrote to machine code and write it into IM.dat.  
   
 ```
@@ -18,13 +18,13 @@ RISCV-CPU /
 │   └── DEF         
 ```
 
-## RISC-V CPU Framework :   
+## RISC-V CPU Framework    
 <img width="500" height="400" alt="RISCV_ALL drawio (4)" src="https://github.com/user-attachments/assets/5aa5eeed-15eb-467f-a554-bf9208201c23" />  
 
-## Five-Stage Pipelined RISC-V CPU :  
+## Five-Stage Pipelined RISC-V CPU   
 <img width="2259" height="1173" alt="RISC-V 的副本 drawio" src="https://github.com/user-attachments/assets/b1996413-9ad6-460f-af46-fb20bdd8cbe3" />  
 
-## Control State Register (CSR) :   
+## Control State Register (CSR)    
 ``` Verilog
 // CSR Address Definition
 parameter CSR_MSTATUS = 12'h300;  # Machine Status Register
@@ -34,7 +34,7 @@ parameter CSR_MCAUSE  = 12'h342;  # Machine Cause Register
 parameter CSR_RDCYCLE = 12'hc00;  # Read Cycle Register
 ```
 
-### Dynamic Branch Prediction :  
+### Dynamic Branch Prediction   
 I use [Branch History Table](./Five-Stage-Pipelined-RISC-V-CPU/RTL/BHT.v)  and [Branch Tag Buffer](./Five-Stage-Pipelined-RISC-V-CPU/RTL/BTB.v) to achieve Dynamic Branch Prediction.  
 Branch History Table can predict whether branch using 2-bit dynamic branch predictor.  
   ``` Verilog
@@ -48,7 +48,7 @@ Branch History Table can predict whether branch using 2-bit dynamic branch predi
   ```
 Branch Tag Buffer can help me to record previous branch address (Branch_PC), like a cache.  
 
-### Example :  
+### Example   
 ``` 
 // Branch Prediction Test - Simple Loop Pattern
 // This test demonstrates branch prediction learning
@@ -66,7 +66,7 @@ BNE x1, x0, -8        // if counter != 0, branch back 8 bytes (to ADD instructio
 ```
 <img width="1862" height="228" alt="image" src="https://github.com/user-attachments/assets/6babf407-d854-4862-bec4-3bda19433ca0" />  
 
-## Load Data Size and Store Data Size :    
+## Load Data Size and Store Data Size     
 ### Load Data Unit (LDU) :   
 This unit handle read data size and sign extension from Data Memory.  
 ``` Verilog
@@ -104,10 +104,10 @@ Write Data use Mem_W_Strb to control the write data size.
 
 ```
 
-## Branch Process :  
+## Branch Process   
 I use the Result and the Zero Flag calculated from the [ALU](./Five-Stage-Pipelined-RISC-V-CPU/RTL/ALU.v) passed to the [Branch Processing Unit](./Five-Stage-Pipelined-RISC-V-CPU/RTL/BPU.v)  to determine whether the branch is taken.  
 
-## Immediate Generator :  
+## Immediate Generator   
 [Immediate Generator](./Five-Stage-Pipelined-RISC-V-CPU/RTL/ImmGen.v) generates the immediate value based on the RISC-V Instruction Set encoding format.  
 ``` Verilog
   always @(*) begin
