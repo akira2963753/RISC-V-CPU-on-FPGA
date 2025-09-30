@@ -18,3 +18,12 @@ RISCV-CPU /
 ## 32-bit RISC-V CPU Framework :   
 <img width="600" height="500" alt="RISCV_ALL drawio (4)" src="https://github.com/user-attachments/assets/5aa5eeed-15eb-467f-a554-bf9208201c23" />
 
+## Control State Register (CSR) :   
+```
+ // CSR Address Definition
+parameter CSR_MSTATUS = 12'h300; # Machine Status Register
+parameter CSR_MTVEC   = 12'h305; # Machine Trap Vector
+parameter CSR_MEPC    = 12'h341; # Machine Exception PC
+parameter CSR_MCAUSE  = 12'h342; # Machine Cause Register
+parameter CSR_RDCYCLE = 12'hc00; # Read Cycle Register
+```
