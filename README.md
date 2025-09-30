@@ -45,7 +45,7 @@ Branch History Table can predict whether branch using 2-bit dynamic branch predi
   ```
 Branch Tag Buffer can help me to record previous branch address (Branch_PC), like a cache.  
 
-### Simulation :  
+### Test :  
 ``` 
 // Branch Prediction Test - Simple Loop Pattern
 // This test demonstrates branch prediction learning
