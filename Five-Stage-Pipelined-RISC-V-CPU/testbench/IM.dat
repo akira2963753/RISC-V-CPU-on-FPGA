@@ -1,0 +1,60 @@
+// ADDI x1, x0, 10        // Loop counter = 8
+00
+A0
+00
+93
+// ADDI x2, x0, 0        // Sum accumulator = 0
+00
+00
+01
+13
+// ADD x2, x2, x1        // sum += counter
+00
+11
+01
+33
+// ADDI x1, x1, -1       // counter--
+FF
+F0
+80
+93
+// BNE x1, x0, -8        // if counter != 0, branch back 8 bytes (to ADD instruction)
+FE
+00
+9C
+E3
+// ADDI x3, x0, 3
+00
+30
+01
+93
+// ADDI x4, x0, 4
+00
+40
+02
+13
+// LW x5, 0(x0)
+00
+00
+22
+83
+// ADDI x6, x5, 5
+00
+52
+83
+13
+// ADDI x7, x6, 6
+00
+63
+03
+93
+// SW x7, 0(x0)
+00
+70
+20
+23
+// ADDI x8, x7, 0
+00
+03
+84
+13
