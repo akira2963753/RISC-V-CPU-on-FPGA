@@ -3,6 +3,5 @@
   
 **I try to design a 32-bit Pipelined RISC-V CPU that supports the RV32I and RV32M, including Forwarding, Hazard Detection, Flush Detection, Dynamic Branch Prediction, and two L1 Caches. Finally, I Implemented on FPGA.**  
 
-**施工中 ...**
-[SPEC](https://exultant-pixie-e6f.notion.site/RISC-V-CPU-3021d2737c1e8058a22ccd14c5484189)
+[**SPEC**](https://exultant-pixie-e6f.notion.site/RISC-V-CPU-3021d2737c1e8058a22ccd14c5484189)
 
